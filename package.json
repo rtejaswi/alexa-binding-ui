@@ -1,0 +1,52 @@
+{
+  "name": "aws-alexa-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.3.0",
+    "@material-ui/icons": "^4.2.1",
+    "aws-amplify": "^1.1.35",
+    "aws-amplify-react": "^2.3.12",
+    "clsx": "^1.1.0",
+    "kind-of": "^6.0.3",
+    "prop-types": "latest",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.4.1",
+    "typeface-roboto": "^0.0.75"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "**/mkdirp/minimist": "^1.2.5",
+    "**/**/lodash": "^4.17.19",
+    "**/**/kind-of": "^6.0.3",
+    "**/**/set-value": "^3.0.1",
+    "**/**/http-proxy": "^1.18.1"
+
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "set-value": "^2.0.1",
+    "typescript": "^3.8.3"
+  }
+}
